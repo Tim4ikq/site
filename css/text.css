@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Georgia','Times','Source Serif 4', seri;
+    color: blue;
+    font-weight: normal;
+    letter-spacing: 6px;
+}
+p{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 24px;
+    word-spacing: 6px;
+}
+.fr{
+    border: thin silver solid;
+    float: right;
+    padding: 10px;
+}
+.fr figcaption{
+    font-family: sans-serif;
+    color: #222;
+}
+.fr figcaption{
+    color: #222;
+    font-family: sans-serif;
+}
+.fl{
+    float: left;
+    border: 1px grey solid;
+    padding: 5px;
+}
+.fl figcaption {
+    color: #222;
+    font-family: sans-serif;
+}
+.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration-line: underline;
+}
+.a1:active{
+    color: navy;
+}

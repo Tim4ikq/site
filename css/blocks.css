@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 50px;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 75%;
+}
+span{
+    color: tomato;
+    border: dotted 2px darkblue;
+    display: block;
+}
+ul li{
+    background-color: rebeccapurple;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 7px;
+    border: 3px solid orange;
+    color: orange;
+}
+ul li:hover{
+    border: 3px solid rebeccapurple;
+    color: rebeccapurple ;
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+}
+#first{
+    background-color: chartreuse;
+    width: 500px;
+    height: 500px;
+    font-size: 24px;
+    border-width: 20px;
+    border-style: dotted dashed;
+    border-color: bisque azure white lightgrey;
+    border-radius: 5% 10% 15% 20%; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#second{
+    width: 500px;
+    height: 800px;
+    background-color: lightsalmon;
+    border: 20px double darkorchid;
+}
+#third, #fourth{
+    width: 700px;
+    height: 250px;
+    background-color: limegreen;
+    border: 10px gold groove;
+    margin: 50px;
+    padding: 25px;
+}
+.clas1{
+    border: groove 10px violet;
+}
+#fourth{
+    border: 10px double red;
+}
+

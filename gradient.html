@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            margin: 30px;
+            float: left;
+        }
+    </style>
+</head>
+<body style="background-color: #fff;">
+
+<p style="background-color: #0000ff; color: #ff0 ; font-size: 1in; ">Ми вивчаємо градієнти</p>     
+<p style="background-color: #000; color: #fff; font-size: 1in; ">Ми вивчаємо градієнти</p>
+<p style="background-color: #811717; color: #00ffff; font-size: 1in; ">Ми вивчаємо градієнти</p> 
+<p style="background-color: rgb(255,255,255); color: rgb(255,255,0) ; font-size: 1in; ">Ми вивчаємо градієнти</p>    
+<p style="background-color: rgb(0,255,0); color: rgb(0,0,0) ; font-size: 1in; ">Ми вивчаємо градієнти</p>  
+<p style="background-color: rgb(0,255,0,0.5); color: rgb(0,0,0) ; font-size: 1in; ">Ми вивчаємо градієнти</p>        
+<p style="background-color: rgb(0,255,0,0.2); color: rgb(0,0,0) ; font-size: 1in; ">Ми вивчаємо градієнти</p>    
+<p style="background-color: rgb(0,255,0,0.8); color: rgb(0,0,0) ; font-size: 1in; ">Ми вивчаємо градієнти</p>    
+<p style="background-color: #0000ff; color: #ff0 ; font-size: 1in; ">Ми вивчаємо градієнти</p>     
+<p style="background-color: linear-gradient(orange,lime); color: #ff0; font-size: 1in; ">Ми вивчаємо градієнти</p>     
+<p style="background-color: linear-gradient(to left,red,orange,yellow,green,blue,violet,indigo); color: #ff0; font-size: 1in; ">Ми вивчаємо градієнти</p>     
+<div style="background-color: linear-gradient(#ff0,#00f);"></div>
+<div style="background: linear-gradient(to right,#ff0,#00f);"></div>
+<div style="background: linear-gradient(45deg,#ff0,#00f);"></div>
+<div style="background: linear-gradient(225deg,#ff0,#00f);"></div>
+<div style="background: linear-gradient(225deg,#ff0 50%,#00f);"></div>
+<div style="background: linear-gradient(225deg,#ff0 50%,#00f 80%);"></div>
+<div style="background: linear-gradient(0deg,#ff0 50%,#00f 50%); width: 450px;"></div>
+<div style="background: linear-gradient(180deg,red 25%,darkblue 25% 50%, #ff0 50% 75%,darkgreen 75% ); width: 450px;"></div>
+<div style="background: radial-gradient(#ff0,#00f);"></div>
+<div style="background: radial-gradient(#ff0 30%,#00f);"></div>
+<div style="background: radial-gradient(#ff0 30%,#00f 80%); border-radius: 10%;"></div>
+<div style="background: radial-gradient(circle at 25% 25%,#ff0 30%,#00f 80%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 75% 75%,#ff0 30%,#00f 80%); border-radius: 25%;"></div>
+<div style="background: radial-gradient(circcle at 50% 100%,#ff0 30%,#00f 80%); border-radius: 25%;"></div>
+<div style="background: conic-gradient(#ff0 ,#00f);"></div>
+<div style="background: conic-gradient(#ff0,#00f,green,orange,lime,olive);"></div>
+<div style="background: conic-gradient(from 45deg,#ff0,#00f,green,orange,lime,olive);"></div>
+<div style="background: conic-gradient(at 75% 25% #ff0,#00f,green,orange,lime,olive);"></div>
+<div style="background: conic-gradient(from 45deg at 75% 25%,#ff0,#00f,green,orange,lime,olive );"></div>
+
+<div style="background: repeating-linear-gradient(#ff0,#00f 20%);"></div>
+<div style="background: repeating-linear-gradient(45deg,#ff0 10px,#00f 20px);"></div>
+<div style="background: repeating-linear-gradient(45deg,#ff0 0% 10%,#00f 10% 20%);"></div>
+<div style="background: repeating-linear-gradient(45deg,#ff0 0% 5%,#00f 5% 15%);"></div>
+<div style="background: repeating-radial-gradient(#ff0 0% 5%,#00f 5% 15%);"></div>
+<div style="background: repeating-conic-gradient(red 0% 15%, darkblue 15% 30%, yellow 30% 45%, darkgreen 45% 60%);"></div>
+<div style="background: repeating-conic-gradient(red 0% 5%, darkblue 5% 10%, yellow 10% 15%, darkgreen 15% 20%); border-radius: 50%;"></div>
+<div style="background:
+    repeating-conic-gradient(
+  from 0deg at 80% 50%,
+  #56911f 0.8%, 
+  #3399ff 8.25%,
+  #3c8b00 18.25% 25%,
+  #f0a9b3 25%,
+  #c0f0a0 25.25%,
+  #e7f380 16.5% 25%
+),
+
+repeating-conic-gradient(
+  from 15deg at 50% 50%,
+  #8e5f56 0% 0.25%,
+  #f0f3f0 8% 25%,
+  #f3b3f0 8% 25%,
+  #e7f380 16.5% 25%
+),
+
+repeating-conic-gradient(
+  from 15deg at 20% 50%,
+  #f3a567 0% 0.25%,
+  #f8d5f7 8.25% 16.5%,
+  #30f8a8 8.25% 25%
+)"></div>
+
+
+<div style="background-image: linear-gradient(135deg, #0E0E22 0%, #000000 0px, #E4E475 24.8%, #0E0E22 35%, #4E0E22 56.3%, #4E0E22 62.4%, #F0F0C8 72.9%, #000000 80%)"></div>"
+
+
+</body>
+</html>

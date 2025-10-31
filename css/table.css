@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+p{
+    font-size: 50px;
+    color: aqua;
+    background-color: beige;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+table{
+    border: 5px double blue;
+    width: 50%;
+    font-size: 30px;
+}
+th,td{
+    border: 2px solid navy;
+    width: 25%;
+    height: 2cm;
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    background-image: url(https://media.tenor.com/UZswyok8T-oAAAAM/pride-rainbow.gif);
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: lightgoldenrodyellow;
+    font-size: 1.2em;
+}
+tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+tr:nth-child(even){
+    background-color: lemonchiffon;
+}
+.es{
+    text-align: right;
+    vertical-align: bottom;
+    border: red dashed;
+}
+caption{
+    font-size: 36px;
+    text-transform: uppercase;
+    background: linear-gradient(Red,Orange,Yellow,Green,Blue,Indigo,Violet);
+}
